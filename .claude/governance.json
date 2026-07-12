@@ -5,14 +5,16 @@
       "biome.json",
       "LICENSE",
       "CONTRIBUTING.md",
-      "ruff.toml",
       ".ruff.toml",
       ".python-lint",
       ".mypy.ini",
       ".github/workflows/super-linter.yml"
     ],
-    "api-specs": ["ruff.toml", ".ruff.toml", ".python-lint", ".mypy.ini"],
-    "api-specs-enriched": ["ruff.toml", ".ruff.toml", ".python-lint", ".mypy.ini"]
+    "terraform-provider-xcsh": [".github/workflows/translation-audit.yml", "scripts/locale-lint.sh"],
+    "api-specs": [".ruff.toml", ".python-lint", ".mypy.ini"],
+    "api-specs-enriched": [".ruff.toml", ".python-lint", ".mypy.ini"],
+    "vscode-xcsh": [".ruff.toml", ".python-lint", ".mypy.ini", ".isort.cfg", "README.md"],
+    "i18n-core": [".ruff.toml", ".python-lint", ".mypy.ini", ".isort.cfg"]
   },
   "protected_files": [
     ".github/workflows/github-pages-deploy.yml",
@@ -43,16 +45,17 @@
     "zizmor.yaml",
     ".shellcheckrc",
     ".codespellrc",
+    ".gitleaks.toml",
     ".prettierignore",
     ".trivyignore",
-    "ruff.toml",
     ".ruff.toml",
     ".isort.cfg",
     ".python-lint",
     ".mypy.ini",
+    "scripts/locale-lint.sh",
+    "trivy.yaml",
     ".claude/settings.json",
     ".claude/governance.json",
-    ".claude/hooks/protect-managed-files.sh",
-    ".claude/hooks/enforce-git-delegation.sh"
+    ".claude/hooks/protect-managed-files.sh"
   ]
 }
