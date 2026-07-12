@@ -14,12 +14,18 @@ node_modules/
 dist/
 *.tgz
 
+# Chrome extension signing key (never commit)
+key.pem
+
 # Environment
 .env
 .env.*
 
 # Logs
 *.log
+
+# Test/UAT artifacts (headless-render screenshots, scratch HTML, etc.)
+.artifacts/
 
 # Astro
 .astro/
@@ -93,6 +99,7 @@ projects/
 .claude/todos/
 .claude/worktrees/
 .claude/scheduled_tasks.lock
+.remember/
 .playwright-mcp/
 .serena/
 .auto-claude/
@@ -116,6 +123,7 @@ oauth-success.html
 # Lock file preferences (Bun-based repos)
 package-lock.json
 yarn.lock
+bun.lock
 
 # Monorepo build
 .turbo/
@@ -135,6 +143,9 @@ worktrees/
 .codex/
 playground/
 
+# Locally cloned dev repos (checked out alongside the parent, not tracked by it)
+starlight-mega-menu/
+
 # Documentation build artifacts
 docs/_data/
 
@@ -146,15 +157,16 @@ docs/api-reference/
 .etag
 .github_release
 
-# Autoresearch session artifacts (local state — never committed)
-autoresearch.jsonl
-autoresearch-queries.txt
-autoresearch-loop.sh
+# Autoresearch session artifacts
+autoresearch.sh
+autoresearch.md
 autoresearch.program.md
+autoresearch.checks.sh
+autoresearch-loop.sh
+autoresearch.ideas.md
+autoresearch-queries.txt
+autoresearch.jsonl
 .autoresearch/
-
-# Autoresearch committable files are tracked per-plugin:
-# autoresearch.md, autoresearch.sh, autoresearch.checks.sh, autoresearch.ideas.md
 
 # Session-resume files
 handoff.md
@@ -177,6 +189,7 @@ packages/ai/test/.temp-images/
 docs/superpowers/
 !.xcsh/
 .xcsh/plugins/
+.xcsh/contexts/
 .pi_config/
 .opencode/
 .worktree-test-baseline.txt

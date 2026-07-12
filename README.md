@@ -1,27 +1,35 @@
-# Claude Code Language Server Marketplace
+🌐 English |
+[日本語](https://f5-sales-demo.github.io/marketplace-claude-code/ja/) |
+[한국어](https://f5-sales-demo.github.io/marketplace-claude-code/ko/) |
+[简体中文](https://f5-sales-demo.github.io/marketplace-claude-code/zh-cn/) |
+[繁體中文](https://f5-sales-demo.github.io/marketplace-claude-code/zh-tw/) |
+[Español](https://f5-sales-demo.github.io/marketplace-claude-code/es/) |
+[Português](https://f5-sales-demo.github.io/marketplace-claude-code/pt-br/) |
+[Français](https://f5-sales-demo.github.io/marketplace-claude-code/fr/) |
+[Deutsch](https://f5-sales-demo.github.io/marketplace-claude-code/de/) |
+[Italiano](https://f5-sales-demo.github.io/marketplace-claude-code/it/) |
+[العربية](https://f5-sales-demo.github.io/marketplace-claude-code/ar/) |
+[हिन्दी](https://f5-sales-demo.github.io/marketplace-claude-code/hi/) |
+[ไทย](https://f5-sales-demo.github.io/marketplace-claude-code/th/)
 
-Claude Code dedicated marketplace for Language Server Protocol (LSP) plugins providing code intelligence for Claude Code sessions.
+# Marketplace Claude Code
 
-## Plugins
+[![GitHub Pages Deploy](https://github.com/f5-sales-demo/marketplace-claude-code/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/f5-sales-demo/marketplace-claude-code/actions/workflows/github-pages-deploy.yml)
+[![Repository Settings](https://github.com/f5-sales-demo/marketplace-claude-code/actions/workflows/enforce-repo-settings.yml/badge.svg)](https://github.com/f5-sales-demo/marketplace-claude-code/actions/workflows/enforce-repo-settings.yml)
+[![License](https://img.shields.io/github/license/f5-sales-demo/marketplace-claude-code)](LICENSE)
 
-| Plugin | Language Server | File Types |
-|--------|----------------|------------|
-| [bash-lsp](plugins/bash-lsp) | bash-language-server | `.sh`, `.bash`, `.zsh`, `.bats` |
-| [css-lsp](plugins/css-lsp) | vscode-css-language-server | `.css`, `.scss`, `.less` |
-| [eslint-lsp](plugins/eslint-lsp) | vscode-eslint-language-server | `.js`, `.jsx`, `.ts`, `.tsx`, `.mjs`, `.cjs` |
-| [html-lsp](plugins/html-lsp) | vscode-html-language-server | `.html`, `.htm` |
-| [json-lsp](plugins/json-lsp) | vscode-json-language-server | `.json`, `.jsonc` |
-| [markdown-lsp](plugins/markdown-lsp) | vscode-markdown-language-server | `.md` |
-| [mdx-lsp](plugins/mdx-lsp) | mdx-language-server | `.mdx` |
-| [terraform-lsp](plugins/terraform-lsp) | terraform-ls | `.tf`, `.tfvars` |
-| [toml-lsp](plugins/toml-lsp) | taplo | `.toml` |
-| [tsgo-lsp](plugins/tsgo-lsp) | tsgo | `.ts`, `.tsx`, `.js`, `.jsx`, `.mts`, `.cts`, `.mjs`, `.cjs` |
-| [yaml-lsp](plugins/yaml-lsp) | yaml-language-server | `.yml`, `.yaml` |
+Claude Code dedicated marketplace for Language Server Protocol (LSP) plugins
+
+
+## Documentation
+
+Full documentation is available at **[https://f5-sales-demo.github.io/marketplace-claude-code/](https://f5-sales-demo.github.io/marketplace-claude-code/)**.
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development workflow and guidelines.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for workflow rules,
+branch naming, and CI requirements.
 
 ## License
 
-[Apache-2.0](LICENSE)
+See [LICENSE](LICENSE).
