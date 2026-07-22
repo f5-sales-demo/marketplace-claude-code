@@ -6,6 +6,6 @@
 
 ### Added
 
-- Initial release: 11 LSP plugins migrated from f5xc-salesdemos/marketplace
+- Initial release: 11 LSP plugins migrated from f5-sales-demo/marketplace
 - bash-lsp, css-lsp, eslint-lsp, html-lsp, json-lsp, markdown-lsp, mdx-lsp, terraform-lsp, toml-lsp, tsgo-lsp, yaml-lsp
 - Full CI/CD pipeline, validation, and release automation
