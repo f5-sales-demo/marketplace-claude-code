@@ -20,7 +20,6 @@
 
 Claude Code dedicated marketplace for Language Server Protocol (LSP) plugins
 
-
 ## Documentation
 
 Full documentation is available at **[https://f5-sales-demo.github.io/marketplace-claude-code/](https://f5-sales-demo.github.io/marketplace-claude-code/)**.
