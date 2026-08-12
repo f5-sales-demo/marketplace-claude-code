@@ -18,12 +18,13 @@ concurrency:
 jobs:
   release:
     name: Create plugin releases
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux, X64, marketplace-claude-code, ubuntu-24.04]
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           fetch-depth: 2
+          persist-credentials: false
 
       - name: Detect version changes and create releases
         env:
