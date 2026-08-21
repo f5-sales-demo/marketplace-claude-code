@@ -8,8 +8,7 @@ on:
       - "plugins/**"
       - ".xcsh-plugin/marketplace.json"
 
-permissions:
-  contents: write
+permissions: {}
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.sha }}
@@ -19,6 +18,8 @@ jobs:
   release:
     name: Create plugin releases
     runs-on: [self-hosted, Linux, X64, marketplace-claude-code, ubuntu-24.04]
+    permissions:
+      contents: write # create GitHub releases for changed plugin versions
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
