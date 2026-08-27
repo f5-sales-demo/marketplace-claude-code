@@ -17,7 +17,7 @@ concurrency:
 jobs:
   release:
     name: Create plugin releases
-    runs-on: [self-hosted, Linux, X64, marketplace-claude-code, ubuntu-24.04]
+    runs-on: managed-socketless
     permissions:
       contents: write # create GitHub releases for changed plugin versions
     steps:
